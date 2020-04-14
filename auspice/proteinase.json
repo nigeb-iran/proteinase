@@ -1,0 +1,1411 @@
+{
+  "meta": {
+    "build_url": "https://github.com/nextstrain/zamani",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "China",
+            "#4784C7"
+          ],
+          [
+            "USA",
+            "#b23aee"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "country",
+      "region"
+    ],
+    "genome_annotations": {
+      "GU280_gp01": {
+        "end": 13483,
+        "seqid": "config/sequence.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp02": {
+        "end": 25384,
+        "seqid": "config/sequence.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp03": {
+        "end": 26220,
+        "seqid": "config/sequence.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp04": {
+        "end": 26472,
+        "seqid": "config/sequence.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp05": {
+        "end": 27191,
+        "seqid": "config/sequence.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp06": {
+        "end": 27387,
+        "seqid": "config/sequence.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp07": {
+        "end": 27759,
+        "seqid": "config/sequence.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp08": {
+        "end": 27887,
+        "seqid": "config/sequence.gb",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp09": {
+        "end": 28259,
+        "seqid": "config/sequence.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp10": {
+        "end": 29533,
+        "seqid": "config/sequence.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp11": {
+        "end": 29674,
+        "seqid": "config/sequence.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "config/sequence.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "China": {
+            "latitude": 35.000074,
+            "longitude": 104.999927
+          },
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458824
+          }
+        },
+        "key": "country"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Javad Zamani",
+        "url": "http://www.nigeb.ac.ir"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ],
+    "title": "Sample genes",
+    "updated": "2020-04-13"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "NC_045512.2",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "China": 0.7850795963041847,
+              "Hong": 0.11296309214126705,
+              "USA": 0.10195731155454814
+            },
+            "entropy": 0.6690928379256896,
+            "value": "China"
+          },
+          "div": 5.7659084561558466e-18,
+          "num_date": {
+            "confidence": [
+              2014.372270853269,
+              2020.1281107337852
+            ],
+            "value": 2019.6183203954567
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "GU280_gp01: N3443T"
+          },
+          "mutations": {
+            "GU280_gp01": [
+              "N3443T"
+            ],
+            "nuc": [
+              "C10279T",
+              "G10282A",
+              "T10285A",
+              "A10312T",
+              "G10324A",
+              "T10330C",
+              "C10336T",
+              "T10366G",
+              "T10372A",
+              "G10396A",
+              "T10397C",
+              "C10408T",
+              "T10423A",
+              "G10447A",
+              "A10486T",
+              "T10534C",
+              "T10546C",
+              "C10582T",
+              "A10593C",
+              "T10597C",
+              "A10603G",
+              "G10618A",
+              "G10642A",
+              "T10654C",
+              "C10681T",
+              "C10702T",
+              "T10723C",
+              "T10768C"
+            ]
+          }
+        },
+        "name": "EPI_ISL_410544_China",
+        "node_attrs": {
+          "accession": "EPI_ISL_410544",
+          "country": {
+            "confidence": {
+              "China": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "China"
+          },
+          "div": 0.0009425176238183614,
+          "num_date": {
+            "confidence": [
+              2019.8640682168857,
+              2019.9986301369863
+            ],
+            "value": 2019.9986301369863
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "NC_045512_China",
+            "node_attrs": {
+              "accession": "NC_045512",
+              "country": {
+                "confidence": {
+                  "China": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "China"
+              },
+              "div": 1.1531816912311693e-17,
+              "num_date": {
+                "confidence": [
+                  2019.9164383561645,
+                  2019.9986301369863
+                ],
+                "value": 2019.997007548994
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp01: Y3500F"
+                  },
+                  "mutations": {
+                    "GU280_gp01": [
+                      "Y3500F"
+                    ],
+                    "nuc": [
+                      "A10764T"
+                    ]
+                  }
+                },
+                "name": "EPI_ISL_417182_Hong",
+                "node_attrs": {
+                  "accession": "EPI_ISL_417182",
+                  "country": {
+                    "confidence": {
+                      "Hong": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Hong"
+                  },
+                  "div": 3.34533287665099e-05,
+                  "num_date": {
+                    "confidence": [
+                      2020.0969945355191,
+                      2020.0969945355191
+                    ],
+                    "value": 2020.0969945355191
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "EPI_ISL_417181_Hong",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_417181",
+                          "country": {
+                            "confidence": {
+                              "Hong": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Hong"
+                          },
+                          "div": 2.8829542280779234e-17,
+                          "num_date": {
+                            "confidence": [
+                              2020.0969945355191,
+                              2020.0969945355191
+                            ],
+                            "value": 2020.0969945355191
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "EPI_ISL_417180_Hong",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_417180",
+                          "country": {
+                            "confidence": {
+                              "Hong": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Hong"
+                          },
+                          "div": 2.8829542280779234e-17,
+                          "num_date": {
+                            "confidence": [
+                              2020.0915300546449,
+                              2020.0915300546449
+                            ],
+                            "value": 2020.0915300546449
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 0.005217462661348874,
+                          "Hong": 0.9813148155842988,
+                          "USA": 0.01346772175435231
+                        },
+                        "entropy": 0.10394283244812644,
+                        "value": "Hong"
+                      },
+                      "div": 2.3063633824623386e-17,
+                      "num_date": {
+                        "confidence": [
+                          2020.0718870375865,
+                          2020.0915300546449
+                        ],
+                        "value": 2020.0915300546449
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420793_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420793",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1680327868853,
+                                          2020.1680327868853
+                                        ],
+                                        "value": 2020.1680327868853
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420785_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420785",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1680327868853,
+                                          2020.1680327868853
+                                        ],
+                                        "value": 2020.1680327868853
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000007",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018657169662410337,
+                                      "USA": 0.9974492404648229
+                                    },
+                                    "entropy": 0.019263114391862127,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.119782267136,
+                                      2020.1666742009081
+                                    ],
+                                    "value": 2020.1389180075523
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417144_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417144",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1680327868853,
+                                          2020.1680327868853
+                                        ],
+                                        "value": 2020.1680327868853
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420792_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420792",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1680327868853,
+                                          2020.1680327868853
+                                        ],
+                                        "value": 2020.1680327868853
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000008",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018657169662410337,
+                                      "USA": 0.9974492404648229
+                                    },
+                                    "entropy": 0.019263114391862127,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.119782267136,
+                                      2020.1666742009081
+                                    ],
+                                    "value": 2020.1389180075523
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000006",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "China": 0.0010586775734467294,
+                                  "Hong": 0.004283538274973614,
+                                  "USA": 0.9946577841515797
+                                },
+                                "entropy": 0.035938670971454326,
+                                "value": "USA"
+                              },
+                              "div": 3.459545073693508e-17,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0949454919828,
+                                  2020.1647150495398
+                                ],
+                                "value": 2020.1333048618365
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417140_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417140",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1653005464482,
+                                          2020.1653005464482
+                                        ],
+                                        "value": 2020.1653005464482
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420789_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420789",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1653005464482,
+                                          2020.1653005464482
+                                        ],
+                                        "value": 2020.1653005464482
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000010",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018657169662410337,
+                                      "USA": 0.9974492404648229
+                                    },
+                                    "entropy": 0.019263114391862127,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.116071680912,
+                                      2020.1653005464482
+                                    ],
+                                    "value": 2020.1382653942105
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420794_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420794",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1653005464482,
+                                          2020.1653005464482
+                                        ],
+                                        "value": 2020.1653005464482
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420790_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420790",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1653005464482,
+                                          2020.1653005464482
+                                        ],
+                                        "value": 2020.1653005464482
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000011",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018657169662410337,
+                                      "USA": 0.9974492404648229
+                                    },
+                                    "entropy": 0.019263114391862127,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.116071680912,
+                                      2020.1653005464482
+                                    ],
+                                    "value": 2020.1382653942105
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "China": 0.0010586775734467294,
+                                  "Hong": 0.004283538274973614,
+                                  "USA": 0.9946577841515797
+                                },
+                                "entropy": 0.035938670971454326,
+                                "value": "USA"
+                              },
+                              "div": 3.459545073693508e-17,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0801514471304,
+                                  2020.1614521636561
+                                ],
+                                "value": 2020.1336146162714
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000005",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 0.002509348050438805,
+                              "Hong": 0.018556685573538127,
+                              "USA": 0.9789339663760231
+                            },
+                            "entropy": 0.10985199073148372,
+                            "value": "USA"
+                          },
+                          "div": 2.8829542280779234e-17,
+                          "num_date": {
+                            "confidence": [
+                              2020.0686096214956,
+                              2020.1602124917256
+                            ],
+                            "value": 2020.0962694837901
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417141_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417141",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1653005464482,
+                                          2020.1653005464482
+                                        ],
+                                        "value": 2020.1653005464482
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_420786_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_420786",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1707650273224,
+                                          2020.1707650273224
+                                        ],
+                                        "value": 2020.1707650273224
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000014",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018672008190331925,
+                                      "USA": 0.9974475745365995
+                                    },
+                                    "entropy": 0.019273760822499323,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.119624808809,
+                                      2020.1653005464482
+                                    ],
+                                    "value": 2020.1395706208943
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417148_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417148",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1598360655737,
+                                          2020.1598360655737
+                                        ],
+                                        "value": 2020.1598360655737
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417147_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417147",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1598360655737,
+                                          2020.1598360655737
+                                        ],
+                                        "value": 2020.1598360655737
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000015",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0018672008190331925,
+                                      "USA": 0.9974475745365995
+                                    },
+                                    "entropy": 0.019273760822499323,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0598907736587,
+                                      2020.1598360655737
+                                    ],
+                                    "value": 2020.1369601675265
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "China": 0.0010600853439535693,
+                                  "Hong": 0.00429707455206806,
+                                  "USA": 0.9946428401039784
+                                },
+                                "entropy": 0.03602202576520453,
+                                "value": "USA"
+                              },
+                              "div": 3.459545073693508e-17,
+                              "num_date": {
+                                "confidence": [
+                                  2020.078420916614,
+                                  2020.1552568147606
+                                ],
+                                "value": 2020.1337905468658
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "EPI_ISL_417149_USA",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_417149",
+                                      "country": {
+                                        "confidence": {
+                                          "USA": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1598360655737,
+                                          2020.1598360655737
+                                        ],
+                                        "value": 2020.1598360655737
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_417145_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_417145",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1625683060108,
+                                              2020.1625683060108
+                                            ],
+                                            "value": 2020.1625683060108
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_420795_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_420795",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1653005464482,
+                                              2020.1653005464482
+                                            ],
+                                            "value": 2020.1653005464482
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000018",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "Hong": 0.0016276430614304911,
+                                          "USA": 0.9977225799871164
+                                        },
+                                        "entropy": 0.017493942017310513,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.118531971539,
+                                          2020.1625683060108
+                                        ],
+                                        "value": 2020.1390961912887
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0021196647566625523,
+                                      "USA": 0.9971205358339179
+                                    },
+                                    "entropy": 0.021382250848656033,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0724022127715,
+                                      2020.1596256318323
+                                    ],
+                                    "value": 2020.1367583861356
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_417142_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_417142",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1625683060108,
+                                              2020.1625683060108
+                                            ],
+                                            "value": 2020.1625683060108
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_417143_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_417143",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1625683060108,
+                                              2020.1625683060108
+                                            ],
+                                            "value": 2020.1625683060108
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000020",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "Hong": 0.0016568102431062882,
+                                          "USA": 0.9976856453396609
+                                        },
+                                        "entropy": 0.017737827057315074,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.115791542695,
+                                          2020.1625683060108
+                                        ],
+                                        "value": 2020.1376127808683
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_417146_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_417146",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1625683060108,
+                                              2020.1625683060108
+                                            ],
+                                            "value": 2020.1625683060108
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "EPI_ISL_420791_USA",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_420791",
+                                          "country": {
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "USA"
+                                          },
+                                          "div": 5.1893176105402627e-17,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1625683060108,
+                                              2020.1625683060108
+                                            ],
+                                            "value": 2020.1625683060108
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000021",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "Hong": 0.0016568102431062882,
+                                          "USA": 0.9976856453396609
+                                        },
+                                        "entropy": 0.017737827057315074,
+                                        "value": "USA"
+                                      },
+                                      "div": 4.612726764924678e-17,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.115791542695,
+                                          2020.1625683060108
+                                        ],
+                                        "value": 2020.1376127808683
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Hong": 0.0023802526652941464,
+                                      "USA": 0.9967817533703073
+                                    },
+                                    "entropy": 0.023527862450943682,
+                                    "value": "USA"
+                                  },
+                                  "div": 4.036135919309093e-17,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.070955319521,
+                                      2020.1602207947474
+                                    ],
+                                    "value": 2020.1346519558515
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000016",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "China": 0.001092378128229962,
+                                  "Hong": 0.0044749163236050375,
+                                  "USA": 0.9944327055481651
+                                },
+                                "entropy": 0.037207149654686064,
+                                "value": "USA"
+                              },
+                              "div": 3.459545073693508e-17,
+                              "num_date": {
+                                "confidence": [
+                                  2020.089704633967,
+                                  2020.1577495777385
+                                ],
+                                "value": 2020.0962922651458
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 0.002517793377526295,
+                              "Hong": 0.01865701432155305,
+                              "USA": 0.9788251923009207
+                            },
+                            "entropy": 0.11029995540838966,
+                            "value": "USA"
+                          },
+                          "div": 2.8829542280779234e-17,
+                          "num_date": {
+                            "confidence": [
+                              2020.0834690442773,
+                              2020.1542030512048
+                            ],
+                            "value": 2020.0959363197042
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 0.010534801387400124,
+                          "Hong": 0.11736876979554782,
+                          "USA": 0.872096428817052
+                        },
+                        "entropy": 0.41877159102447914,
+                        "value": "USA"
+                      },
+                      "div": 2.3063633824623386e-17,
+                      "num_date": {
+                        "confidence": [
+                          2020.072929020538,
+                          2020.151367800838
+                        ],
+                        "value": 2020.0908258833026
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "China": 0.04856376525813745,
+                      "Hong": 0.8026335329207471,
+                      "USA": 0.14880270182111532
+                    },
+                    "entropy": 0.6068531660681429,
+                    "value": "Hong"
+                  },
+                  "div": 1.7297725368467538e-17,
+                  "num_date": {
+                    "confidence": [
+                      2020.0214448349338,
+                      2020.090155385887
+                    ],
+                    "value": 2020.0742430641305
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "China": 0.1382791196022878,
+                  "Hong": 0.80819690239982,
+                  "USA": 0.05352397799789218
+                },
+                "entropy": 0.6023859539897067,
+                "value": "Hong"
+              },
+              "div": 1.1531816912311693e-17,
+              "num_date": {
+                "confidence": [
+                  2019.9459469667668,
+                  2020.0881823611612
+                ],
+                "value": 2020.058664210132
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000022",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "China": 0.8641085192467882,
+              "Hong": 0.1200841328654184,
+              "USA": 0.01580734788779323
+            },
+            "entropy": 0.44629237611096606,
+            "value": "China"
+          },
+          "div": 5.7659084561558466e-18,
+          "num_date": {
+            "confidence": [
+              2019.8818947611153,
+              2019.9955455751788
+            ],
+            "value": 2019.9154489630603
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "China": 0.9185342187077441,
+          "Hong": 0.06254606607287382,
+          "USA": 0.018919715219382065
+        },
+        "entropy": 0.3264868390235034,
+        "value": "China"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2014.3722897661296,
+          2019.9931051889118
+        ],
+        "value": 2019.59307553069
+      }
+    }
+  },
+  "version": "v2"
+}
